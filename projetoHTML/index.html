@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+<html lang ="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café Nobre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+       <!-- CABEÇALHO-->
+    <header>
+        <div class="topo-header">
+            <p class="marca">Café Nobre</p>
+            <nav>
+                <a href="#sobre">Início</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#preparo">Como preparamos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <h1>Café Nobre</h1>
+            <p class="subtitulo">Mais que café, uma experiência</p>
+            <a class="botao" href="#cardapio">Ver cardápio</a>
+        </div>
+    </header>
+
+    <!--- ÁREA PRINCIPAL-->
+<main>
+    <section id="sobre">
+        <h2>Nossa história</h2>
+        <p>
+            O <strong>Café Nobre</strong> nasceu em 2026 com um propósito: servir um café
+            <em>verdadeiramente</em> bom, do melhor jeito que o Sul de Minas sabe fazer.
+        </p>
+        <p>
+            Aqui, cada detalhe importa: da água filtrada ao ponto exato da torra.<br>
+            Venha sentir o aroma antes mesmo de entrar pela porta.
+        </p>
+             
+        <!--- COLOCANDO IMAGEM --->   
+
+        <figure>
+                <img src="imagem/image.png"
+                     alt="Grãos de café torrados espalhados sobre uma mesa de madeira">
+                <figcaption>Grãos selecionados, torrados semanalmente em pequenos lotes.</figcaption>
+            </figure>
+
+            <!--- LISTA NÃO ORDENADA --->
+
+            <ul>
+                <li>Grãos 100% arábica</li>
+                <li>Torra artesanal</li>
+                <li>Wi-fi gratuito</li>
+                <li>Produtos de qualidade</li>
+            </ul>
+    </section>
+
+<!----SEÇÃO 2 ---->
+
+    <section id="cardapio">
+        <h2>Cardápio</h2>
+
+        <article>
+            <h3>Bebidas em destaque</h3>
+            <p>Do expresso curto ao mocha com calda de chocolate amargo, todas bebidas sao preparadas na hora <mark>nada fica esfriando no balcão.</mark></p>
+
+            <img src="imagem/image2.jpg" alt="Xícara de cappuccino com desenho na espuma em cima de um balcão">
+                   
+
+             <!-- CRIANDO TABELA-->
+            <!-- CAPTION CRIA UM TITULO NA TABELA, THEAD INDICA A PARTE DO CABEÇALHO-->
+
+            <table>
+                <caption> Cardápio da nossa cafeteria</caption>
+                <thead>
+                    <tr> <!-- CRIA UMA LINHA-->
+                        <th>Item</th> <!-- CABEÇALHO-->
+                        <th>Descrição</th>
+                        <th>Tipo</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!-- CORPO DA TABELA-->
+                    <tr>
+                        <td>Expresso</td>
+                        <td>Intenso, aromático e encorpado</td>
+                        <td>Quente</td>
+                        <td>R$ 9,90</td>
+                    </tr>
+                    <tr>
+                        <td>Mocha Gelado</td>
+                        <td>Café, chocolate meio amargo e leite gelado</td>
+                        <td>Gelado</td>
+                        <td>R$ 11,90</td>
+                    </tr>
+                    <tr>
+                        <td>Pão de queijo</td>
+                        <td>Fresquinhos, feito no dia</td>
+                        <td>Salgado</td>
+                        <td>R$ 5,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <section id="preparo">
+        <h2>Como preparamos seu café</h2>
+        <p>Do grão à xicara, seguimos um passo a passo para que seu café tenha o melhor sabor:</p>
+        <ol>
+            <li>Pesagem dos grãos moídos no dia</li>
+            <li>Pré-infusão para liberar aromas</li>
+            <li>Coagem controlada por tempo e temperatura</li>
+            <li>Finalizamos a montagem</li>
+            <li>Servir na hora</li>
+        </ol>
+        <p>
+            Quer conhecer mais sobre o processo? Veja nossa <a href="https://www.sca.coffee/" target="_blank" rel="noopener">página de referência sobre a especialidade do cafe</a>
+            ou volte ao <a href="index.html">início da página</a>
+        </p>
+    </section>
+
+</main>
+
+<!--TAG SEMANTICA-->
+
+<aside id="contato">
+    <h2>Informações rápidas</h2>
+    <p><strong>Horário:</strong> Seg. à Sáb., das 7h às 18:30</p>
+    <p><strong>Endereço:</strong> Centro, 45 - Lavras, MG</p>
+    <p>
+        Siga a gente no <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            para ver as novidades do cardápio.
+    </p>
+</aside>
+
+
+<!-- RODAPE-->
+
+<footer>
+    <p>&copy; 2026 Café Nobre. Todos direitos reservados.</p>
+    <p><a href="#sobre">Voltar ao topo</a></p>
+</footer>
+
+</body>
+</html>
